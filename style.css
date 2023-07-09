@@ -1,0 +1,54 @@
+body {
+text-align: center;
+font-family: Arial, sans-serif;
+background-color: rgb(29, 26, 26);
+}
+
+h1 {
+margin-top: 10px;
+color: azure;
+}
+
+#drum-grid {
+display: inline-block;
+margin-top: 10px;
+}
+
+.drum-pad {
+width: 80px;
+height: 80px;
+margin: 5px;
+border: 2px solid #e40dae;
+border-radius: 5px;
+background-color: rgb(98, 83, 235);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+color: azure;
+font-weight: bolder;
+}
+
+.drum-pad:hover {
+background-color: #9ca703;
+}
+
+.drum-pad[disabled] {
+opacity: 0.5;
+cursor: not-allowed;
+}
+
+#controls {
+margin-top: 50px;
+}
+
+label {
+margin-right: 10px;
+color: azure;
+}
+
+#volume-slider {
+width: 200px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drum Pad</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<h1>Drum Pad</h1>
+<div id="drum-grid">
+  <button class="drum-pad" data-key="1">&#129313;Q</button>
+  <button class="drum-pad" data-key="2">&#128579;W</button>
+  <button class="drum-pad" data-key="3">&#128514;E</button>
+  <button class="drum-pad" data-key="4">&#128521;R</button>
+  <button class="drum-pad" data-key="5">&#128578;T</button>
+<br>
+  <button class="drum-pad" data-key="6">&#128585;Y</button>
+  <button class="drum-pad" data-key="7">&#128519;U</button>
+  <button class="drum-pad" data-key="8">&#128515;I</button>
+  <button class="drum-pad" data-key="9">&#128518;O</button>
+  <button class="drum-pad" data-key="10">&#128516;P</button>
+<br>
+  <label>
+    <input type="checkbox" id="pads1to10-checkbox" checked> Pads 1-10
+</label>
+<br>
+  <button class="drum-pad" data-key="11">&#128122;A</button>
+  <button class="drum-pad" data-key="12">&#128512;S</button>
+  <button class="drum-pad" data-key="13">&#128513;D</button>
+  <button class="drum-pad" data-key="14">&#128536;F</button>
+  <button class="drum-pad" data-key="15">&#128525;G</button>
+<br>
+  <button class="drum-pad" data-key="16">&#129302;H</button>
+  <button class="drum-pad" data-key="17">&#129321;J</button>
+  <button class="drum-pad" data-key="18">&#128535;K</button>
+  <button class="drum-pad" data-key="19">&#128538;L</button>
+  <button class="drum-pad" data-key="20">&#128537;Z</button>
+<br>
+  <button class="drum-pad" data-key="21">&#128125;X</button>
+  <button class="drum-pad" data-key="22">&#129297;C</button>
+  <button class="drum-pad" data-key="23">&#128520;V</button>
+  <button class="drum-pad" data-key="24">&#129312;B</button>
+  <button class="drum-pad" data-key="25">&#128123;N</button>
+<br>
+  <label>
+    <input type="checkbox" id="pads11to25-checkbox" checked> Pads 11-25
+  </label>
+</div>
+<div id="controls">
+  <label for="volume-slider">Volume:</label>
+  <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="0.5">
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+
+</html>
